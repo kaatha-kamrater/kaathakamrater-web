@@ -1,0 +1,92 @@
+{{ define "main" }}
+<main>
+    <div class="bg-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto">
+            <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
+                <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
+                    <h1
+                        class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white font-lucida">
+                        Kååtha Kamrater</h1>
+                    <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl font-lucida">
+                        Follow the white rabbit
+                    </h2>
+                    <p
+                       class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
+                       Blekinges styggaste kvasiförening och även kända som omoralens väktare. Arrangerar Kinky Night i månadsskiftet september/oktober eller oktober/november, tror vi. Ingen minns exakt vad som händer, bara att det var en spektakulär fest.</p>
+                </div>
+                <div class="col-span-6">
+                    {{ $hero := resources.GetMatch "images/pages/KK.png" }}
+
+                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
+                    {{ $large := ($hero.Fill "576x576 webp q90") }}
+
+                    <img srcset="
+                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
+                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}"
+                         width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- More main page content here... -->
+
+    <!-- Hero section -->
+    <div class="overflow-hidden sm:pt-6 lg:relative">
+        <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
+            <div>
+                <div class="md:mt-8">
+                    <div class="mt-6 sm:max-w-xl">
+                        <h1 class="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
+                            Vilka är vi?
+                        </h1>
+                        <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
+                            Omoralens väktare, även kända som Kååtha Kamrater, är en kvasiförening från Blekinge.<br> En kvasiförening är egentligen bara en grupp vänner med liknande intressen. På Blekinge tekniska högskola har varje kvasiförening unika västar som deras medlemmar bär på fester, och i vårt fall bär vi camovästar med loggan och namnet tryckt på ryggen.<br><br>
+
+Vi arrangerar två återkommande evenemang för studenterna på BTH: Kinky Night och Kaninaphton. Vi är alltid glada att träffa nya människor, så var inte rädd att prata med oss om du ser oss under en kårkväll eller vilket annat evenemang som helst.<br> Om du vill lära dig mer om oss kan du klicka på "Könika" uppe i menyn!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
+            <div class="md:py-12 sm:relative sm:mt-12 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+                <div class="hidden sm:block">
+                    <div
+                         class="absolute inset-y-0 w-screen left-1/2 rounded-l-3xl bg-gray-50 dark:bg-gray-900/10 lg:left-80 lg:right-0 lg:w-full">
+                    </div>
+                    <svg class="absolute -mr-3 top-8 right-1/2 lg:left-0 lg:m-0" width="404" height="392" fill="none"
+                         viewBox="0 0 404 392" loading="lazy">
+                        <defs>
+                            <pattern id="837c3e70-6c3a-44e6-8854-cc48c737b659" x="0" y="0" width="20" height="20"
+                                     patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60"
+                                      fill="currentColor" />
+                            </pattern>
+                        </defs>
+                        <rect width="404" height="392" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)" />
+                    </svg>
+                </div>
+                <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
+                    {{ $heroOne := resources.GetMatch "images/pages/ganget.jpg" }}
+
+                    {{ $tiny := ($heroOne.Fit "480x280 q80") }}
+                    {{ $small := ($heroOne.Fit "768x280 q80") }}
+                    {{ $medium := ($heroOne.Fit "1024x280 q80") }}
+                    {{ $large := ($heroOne.Fit "1374x1000 q80") }}
+
+                    <img srcset="
+                        {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+                        {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+                        {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+                        {{- with $large.RelPermalink -}}, {{.}} 1374w{{- end -}}" src="{{ $heroOne.RelPermalink }}"
+                         alt="Gänget"
+                         class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+{{ end }}

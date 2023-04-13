@@ -1,0 +1,58 @@
+baseURL = "https://kk-web-beta.vercel.app/"
+title = "Kååtha Kamrater"
+
+languageCode = "sv-se"
+DefaultContentLanguage = "se"
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+paginate = 9
+enableInlineShortcodes = true
+
+[params]
+author = "Kååtha Kamrater"
+authorimage = "../assets/images/global/author.webp"
+github = "https://github.com/kaatha-kamrater"
+facebook = "https://www.facebook.com/kaathakamrater"
+og_image = "/favicon/cover.png"
+sitename = "Kååtha Kamrater"
+description = "Kååtha Kamrater är en kvasiförening från Blekinge."
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+category = "Categories"
+tag = "Tags"
+
+[privacy]
+[privacy.disqus]
+disable = false
+[privacy.googleAnalytics]
+anonymizeIP = true
+disable = false
+respectDoNotTrack = false
+useSessionStorage = false
+[privacy.instagram]
+disable = false
+simple = false
+[privacy.twitter]
+disable = false
+enableDNT = false
+simple = false
+[privacy.vimeo]
+disable = false
+enableDNT = false
+simple = false
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.104.0"
