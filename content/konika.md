@@ -113,6 +113,9 @@ Endast framtiden kan visa hur det går för deras planer.
 Covid-19 härjade i världen men det stoppade inte omoralen. Porr-Birger, Cucumis, Kleine Würzen och Homeslap välkomnades in i dimman.<br><br>
 
 <h1 class=" font-black text-white capitalize font-lucida">Tjugotredje Tidsåldern</h1>
-Skador, Knausgård och tunnbrödsrullar präglade detta år. De överlevde och Kååtha Kamrater föröka sig med Kinkie Pie, Gagfield och Machine Cum Kelly.
+Skador, Knausgård och tunnbrödsrullar präglade detta år. De överlevde och Kååtha Kamrater föröka sig med Kinkie Pie, Gagfield och Machine Cum Kelly.<br><br>
+
+<h1 class=" font-black text-white capitalize font-lucida">Tjugofjärde Tidsåldern</h1>
+Vi förökade oss väldigt effektivt. Clit-Marie, King Assripper, Puddingen, Dag Hammarknull, Horny Joe och Funtime Foxy välkomnades in i värmen.
 
 Kååtha Kamrater - Follow the white rabbit.
