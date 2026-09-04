@@ -13,7 +13,7 @@
 </script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
-{{ if .Site.IsServer }}
+{{ if hugo.IsServer }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
 {{ else }}
 {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
