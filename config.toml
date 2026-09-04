@@ -1,15 +1,16 @@
 baseURL = "https://kaatha-kamrater.se/"
 title = "Kååtha Kamrater"
 
-languageCode = "sv-se"
+locale = "sv-SE"
 DefaultContentLanguage = "se"
 
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
-canonifyURLs = true
-paginate = 9
 enableInlineShortcodes = true
+
+[pagination]
+pagerSize = 9
 
 [params]
 author = "Kååtha Kamrater"
@@ -55,4 +56,4 @@ privacyEnhanced = true
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.104.0"
+    min = "0.165.0"
