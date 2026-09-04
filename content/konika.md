@@ -116,6 +116,14 @@ Covid-19 härjade i världen men det stoppade inte omoralen. Porr-Birger, Cucumi
 Skador, Knausgård och tunnbrödsrullar präglade detta år. De överlevde och Kååtha Kamrater föröka sig med Kinkie Pie, Gagfield och Machine Cum Kelly.<br><br>
 
 <h1 class=" font-black text-white capitalize font-lucida">Tjugofjärde Tidsåldern</h1>
-Vi förökade oss väldigt effektivt. Clit-Marie, King Assripper, Puddingen, Dag Hammarknull, Horny Joe och Funtime Foxy välkomnades in i värmen.
+Vi förökade oss väldigt effektivt. Clit-Marie, King Assripper, Puddingen, Dag Hammarknull, Horny Joe och Funtime Foxy välkomnades in i värmen.<br><br>
 
+<h1 class=" font-black text-white capitalize font-lucida">Tjugofemte Tidsåldern</h1>
+Blotet var starkt och dimman låg tät över Blekinge detta år. Kååtha Kamrater förökade sig med Throat Goat, Viagra Man, Vincent Van Cock, Kalles Cumviar och Nutcracker<br><br>
+
+<h1 class=" font-black text-white capitalize font-lucida">Tjugosjätte Tidsåldern</h1>
+Detta år svämmade dimman över alla bräddar och omoralen nådde nya höjder. Kååtha Kamrater förökade sig med Emerald Edger, TörnTrosa, PsyCuck, Satsifryer, Vitsnippan och Goonjakten.<br><br>
+
+<h1 class=" font-black text-white capitalize font-lucida">Tjugosjunde Tidsåldern</h1>
+Omoralen visade inga tecken på att mattas och BTH skälvde av kåthet detta år. Sin City, Love Tapped, Freddy Cumbear, Straight Teeth, Stiffler och Precum välkomnades in i värmen. <br><br>
 Kååtha Kamrater - Follow the white rabbit.
